@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 5%;
+    background-color: rgb(19, 121, 147);
+    padding: 0.5%;
+}
+.twitter{
+    display: flex;
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: start;
+}
+.texts{
+    display: flex;
+    flex-direction: row;
+}
+.texts a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial;
+    color:rgba(202, 202, 202, 0.95);
+    font-weight: bold;
+    font-size: large;
+}
+.texts a:hover{
+    background-color: rgba(6, 76, 93, 0.644);
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    font-family: Arial;
+    margin-left: 35%;
+}
+.main p{
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(45, 45, 45);
+}
+.main span{
+    font-weight: bold;
+    color: rgb(21, 21, 21);
+}

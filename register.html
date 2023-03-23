@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="twitter"><b>TWITTER</b></div>
+      <div style="width:80%"></div>
+      <div class="texts">
+        <a href="#">Tweets</a>&nbsp;&nbsp;&nbsp;
+        <a href="login.html" id="textname">Login</a>&nbsp;&nbsp;&nbsp;
+        <a href="register.html" style="margin-right: -10%;">Logout</a>&nbsp;&nbsp;
+      </div>
+    </div>
+    <div class="regi">
+      <div class="reg">
+        <form>
+          <label for="email">EMAIL:</label><br>
+          <input type="email" id="email"><br>
+          <label for="password">PASSWORD: </label><br>
+          <input type="password" id="password"><br>
+          <label for="name">FULL NAME:</label><br>
+          <input type="text" id="name"><br>
+          <label for="country">COUNTRY:</label><br>
+          <select name="country" id="country">
+            <option value="Kazakhstan" id="KZ">Kazakhstan</option>
+            <option value="Russia" id="RU">Russia</option>
+            <option value="Kyrgystan" id="KG">Kyrgystan</option>
+            <option value="Uzbekistan" id="UZ">Uzbekistan</option>
+            <option value="USA" id="usa">USA</option>
+          </select><br>
+          <label for="bd">BIRTHDAY: </label><br>
+          <input type="date" id="birthday"><br><br>
+          <button type="button" onclick="registerUser()">REGISTER</button>
+        </form>
+      </div>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>

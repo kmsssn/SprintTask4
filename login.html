@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Вход</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="twitter"><b>TWITTER</b></div>
+      <div style="width:80%"></div>
+      <div class="texts">
+        <a href="#">Tweets</a>&nbsp;&nbsp;&nbsp;
+        <a href="login.html" id="textname">Login</a>&nbsp;&nbsp;&nbsp;
+        <a href="register.html">Logout</a>&nbsp;&nbsp;
+      </div>
+    </div>
+    <div class="login">
+      <form>
+        <label for="email">EMAIL:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">PASSWORD:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="button" onclick="loginUser()">SIGN IN</button>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>

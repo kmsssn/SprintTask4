@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height: 5%;
+    background-color: rgb(19, 121, 147);
+    padding: 0.5%;
+}
+.twitter{
+    display: flex;
+    font-family: Arial;
+    color: aliceblue;
+    font-size: 25px;
+    justify-content: start;
+}
+.texts{
+    display: flex;
+    flex-direction: row;
+}
+.texts a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial;
+    color:rgba(202, 202, 202, 0.95);
+    font-weight: bold;
+    font-size: large;
+}
+.texts a:hover{
+    background-color: rgba(6, 76, 93, 0.644);
+    color: white;
+}
+.reg{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+}
+.reg input{
+    height: 25px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border: 1px solid lightgray;
+    border-radius: 3%;
+}
+.reg select{
+    height: 30px;
+    font-size: 15px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    
+}
+.reg label{
+    font-size: 17px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.reg button{
+    background-color: rgb(48, 50, 160);
+    color:aliceblue;
+    margin-top: -5%;
+    padding: 8px;
+    border: none;
+    font-size: 15px;
+    font-family: Arial;
+}
