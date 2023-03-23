@@ -9,7 +9,7 @@ function registerUser() {
       if (!users.find(user => user.email === email)) {
         users.push({email, password, name, country, birthday});
         localStorage.setItem('users', JSON.stringify(users));
-        alert("Вы успешно зарегетсрированы!");
+        alert("Вы успешно зарегистрированы!");
         window.location.href = 'login.html';
       } else {
         alert('Пользователь с таким email уже зарегистрирован!');
